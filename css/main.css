@@ -368,6 +368,8 @@ a:visited { color: #205caa; }
     float: left;
   }
 
+  .home h1 { clear: both; }
+
   .posts { clear: left; }
 
   .wrap { padding: 0 12px; }
