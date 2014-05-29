@@ -337,7 +337,7 @@ a:visited { color: #205caa; }
     width: 100px;
     height: auto;
     float: left;
-    clear: both;
+    clear: all;
   }
 
   .footer-col-1 { width: 50%; }
@@ -365,7 +365,7 @@ a:visited { color: #205caa; }
     width: 100px;
     height: auto;
     float: left;
-    clear: both;
+    clear: all;
   }
 
   .wrap { padding: 0 12px; }
