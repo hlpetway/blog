@@ -153,10 +153,7 @@ a:visited { color: #205caa; }
 
 .home h1 { margin-bottom: 25px; }
 
-.posts {
-  list-style-type: none;
-  clear:all;
-}
+.posts { list-style-type: none; }
 
 .posts li { margin-bottom: 30px; }
 
@@ -339,9 +336,10 @@ a:visited { color: #205caa; }
   #home-img {
     width: 100px;
     height: auto;
-    float: left;
-    clear: all;
+    float: right;
   }
+
+  .posts { clear: right; }
 
   .footer-col-1 { width: 50%; }
 
@@ -368,8 +366,9 @@ a:visited { color: #205caa; }
     width: 100px;
     height: auto;
     float: left;
-    clear: all;
   }
+
+  .posts { clear: right; }
 
   .wrap { padding: 0 12px; }
 
