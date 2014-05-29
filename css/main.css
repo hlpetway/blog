@@ -13,13 +13,15 @@ body {
   font-size: 16px;
   line-height: 1.5;
   font-weight: 300;
-  background-color: #fdfdfd;
+  background-color: #99CCFF;
 }
 
 #home-img {
 float: right;
-margin-right: 30px;
+margin-right: 20px;
+margin-top: 20px;
 }
+
 
 h1, h2, h3, h4, h5, h6 { font-size: 100%; font-weight: 400; }
 
@@ -49,7 +51,7 @@ a:visited { color: #205caa; }
   border-top: 5px solid #333;
   border-bottom: 1px solid #e8e8e8;
   min-height: 56px;
-  background-color: white;
+  background-color: #99CCFF;
 }
 
 .site-title,
@@ -124,7 +126,7 @@ a:visited { color: #205caa; }
 .site-footer p {
   font-size: 15px;
   letter-spacing: -.3px;
-  color: #828282;
+  color: #696969;
 }
 
 .github-icon-svg,
@@ -182,7 +184,7 @@ a:visited { color: #205caa; }
 
 .post-header .meta {
   font-size: 15px;
-  color: #818181;
+  color: #696969;
   margin-top: 5px;
 }
 
