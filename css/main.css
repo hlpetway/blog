@@ -16,8 +16,9 @@ body {
   background-color: #fdfdfd;
 }
 
-#header-img {
+#home-img {
 float: right;
+margin-right: 30px;
 }
 
 h1, h2, h3, h4, h5, h6 { font-size: 100%; font-weight: 400; }
