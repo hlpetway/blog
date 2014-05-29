@@ -1,0 +1,10 @@
+# Site settings
+title: Hailey Petway's Web Development Blog
+email: petwayh@gmail.com
+description: "This is my personal blog about my experience in Code Fellow's Full Stack JavaScript Development Accelorator and programming in general."
+baseurl: ""
+url: "http://yourdomain.com"
+
+# Build settings
+markdown: kramdown
+permalink: pretty
