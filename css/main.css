@@ -365,10 +365,10 @@ a:visited { color: #205caa; }
   #home-img {
     width: 100px;
     height: auto;
-    float: right;
+    float: left;
   }
 
-  .posts { clear: right; }
+  .posts { clear: left; }
 
   .wrap { padding: 0 12px; }
 
