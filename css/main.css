@@ -366,6 +366,7 @@ a:visited { color: #205caa; }
     width: 100px;
     height: auto;
     float: left;
+    margin: 10px;
   }
 
   .home h1 { clear: both; }
