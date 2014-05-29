@@ -336,7 +336,7 @@ a:visited { color: #205caa; }
   #home-img {
     width: 100px;
     height: auto;
-    float: right;
+    float: left;
     clear: both;
   }
 
@@ -364,7 +364,7 @@ a:visited { color: #205caa; }
   #home-img {
     width: 100px;
     height: auto;
-    float: right;
+    float: left;
     clear: both;
   }
 
