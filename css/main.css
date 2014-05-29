@@ -333,6 +333,11 @@ a:visited { color: #205caa; }
 
 @media screen and (max-width: 750px) {
 
+  #home-img {
+    float: right;
+    clear: both;
+  }
+
   .footer-col-1 { width: 50%; }
 
   .footer-col-2 {
@@ -353,6 +358,11 @@ a:visited { color: #205caa; }
 }
 
 @media screen and (max-width: 600px) {
+
+  #home-img {
+    float: right;
+    clear: both;
+  }
 
   .wrap { padding: 0 12px; }
 
