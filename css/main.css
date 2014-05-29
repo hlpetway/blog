@@ -334,6 +334,8 @@ a:visited { color: #205caa; }
 @media screen and (max-width: 750px) {
 
   #home-img {
+    width: 100px;
+    height: auto;
     float: right;
     clear: both;
   }
@@ -360,6 +362,8 @@ a:visited { color: #205caa; }
 @media screen and (max-width: 600px) {
 
   #home-img {
+    width: 100px;
+    height: auto;
     float: right;
     clear: both;
   }
