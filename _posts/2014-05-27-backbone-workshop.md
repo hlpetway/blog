@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Seattle JS's Backbone WorkkShop"
+title:  "Seattle JS's Backbone WorkShop"
 date:   2014-05-27 21:01:31
 categories: Seattle JS, Backbone
 ---
