@@ -16,10 +16,9 @@ body {
   background-color: #99CCFF;
 }
 
-#home-img {
+#about-img {
 float: right;
-margin-right: 20px;
-margin-top: 20px;
+margin: 20px;
 }
 
 
@@ -333,12 +332,6 @@ a:visited { color: #205caa; }
 
 @media screen and (max-width: 750px) {
 
-  #home-img {
-    width: 100px;
-    height: auto;
-    float: right;
-  }
-
   .posts { clear: right; }
 
   .footer-col-1 { width: 50%; }
@@ -361,11 +354,6 @@ a:visited { color: #205caa; }
 }
 
 @media screen and (max-width: 600px) {
-
-  #home-img {
-
-display:none;
-  }
 
   .home h1 { clear: both; }
 
