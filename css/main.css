@@ -363,7 +363,8 @@ a:visited { color: #205caa; }
 @media screen and (max-width: 600px) {
 
   #home-img {
-   display:none;
+
+display:none;
   }
 
   .home h1 { clear: both; }
