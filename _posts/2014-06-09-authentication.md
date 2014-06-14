@@ -5,7 +5,7 @@ date:   2014-06-08 21:01:31
 categories: authentication
 ---
 
-<img src="http://photos-g.ak.instagram.com/hphotos-ak-xpa1/10424467_346667108815462_478798941_n.jpg="200" height="200" alt="Mapping Authentication on The White Board">
+<img src="http://photos-g.ak.instagram.com/hphotos-ak-xpa1/10424467_346667108815462_478798941_n.jpg" width="200" height="200" alt="Mapping Authentication on The White Board">
 
 We started this week with a look at authentication. We covered the JSOn Web Token (JWT) approach to authentication. We can exchange a valid login and password for a token instead of supplying the username and password with every request.
 
