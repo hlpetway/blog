@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Studying Data Structures and Algorithms"
-date:   2014-06-05 21:01:31
+title:  "JWT and Node Authentication"
+date:   2014-06-08 21:01:31
 categories: authentication
 ---
 
