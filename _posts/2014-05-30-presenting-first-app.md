@@ -9,6 +9,7 @@ categories: First App
 
 This morning we added a few more options to our initial search screen in our Map App. And then this afternoon we presented our app to the FullStack JavaScript, Ruby and UX classes at Code Fellows. You can view our app at [Flappy Mappy](http://murmuring-ravine-6584.herokuapp.com/). After seeing all of the apps presented, I'm very happy with the progress we made. Our app was the most complete and offered the most functionality.
 
-That said, in my opinion, all most all of the other apps looked better than ours. In my next project I want to focus on persisting data with Backbone or Angular as well as beautiful and simple front-end design.
-
 <img src="http://photos-c.ak.instagram.com/hphotos-ak-xpf1/10354456_539702626134810_174029399_n.jpg" width="200" height="200" alt="Our App's Readme with passing Shippable badge">
+
+That said, in my opinion, all most all of the other apps looked better than ours. In my next project I want to focus on persisting data with Backbone or Angular as well as implementing beautiful and simple front-end design.
+
