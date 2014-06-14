@@ -7,7 +7,7 @@ categories: First App
 
 <img src="http://photos-g.ak.instagram.com/hphotos-ak-xfp1/10387963_394121780727566_1333659592_n.jpg" width="200" height="200" alt="Our App Live On Heroku">
 
-This morning we added a few more options to our initial search screen in our Map App. And then this afternoon we presented our app to the FullStack JavaScript, Ruby and UX classes at Code Fellows. You can view our app at [flappy Mappy](fhttp://murmuring-ravine-6584.herokuapp.com/). After seeing all of the apps presented, I'm very happy with the progress we made. Our app was the most complete and offered the most functionality.
+This morning we added a few more options to our initial search screen in our Map App. And then this afternoon we presented our app to the FullStack JavaScript, Ruby and UX classes at Code Fellows. You can view our app at [Flappy Mappy](http://murmuring-ravine-6584.herokuapp.com/). After seeing all of the apps presented, I'm very happy with the progress we made. Our app was the most complete and offered the most functionality.
 
 That said, in my opinion, all most all of the other apps looked better than ours. In my next project I want to focus on persisting data with Backbone or Angular as well as beautiful and simple front-end design.
 
