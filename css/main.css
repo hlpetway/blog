@@ -386,17 +386,20 @@ a:visited { color: #205caa; }
 
 @media screen and (max-width: 600px) {
 
+  .site-header {
+    max-height: 200px;
+  }
+
   .home h1 { clear: both; }
 
   .posts { clear: left; }
 
-  .wrap { padding: 0 12px; }
+  .wrap { padding: 0 5px; }
 
   .site-nav {
-    position: relative;
+    clear: left;
     float: left;
     z-index: 10;
-    top: 14px; right: 8px;
     background-color: white;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
@@ -427,8 +430,8 @@ a:visited { color: #205caa; }
   .site-nav .page-link {
     display: block;
     text-align: right;
-    line-height: 1.25;
-    padding: 5px 10px;
+    line-height: 1.5;
+    padding: 5px 15px;
     margin: 0;
   }
 
