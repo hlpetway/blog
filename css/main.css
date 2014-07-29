@@ -175,7 +175,7 @@ a:visited { color: #205caa; }
 #recent-posts {
   width: 200px;
   float: right;
-  margin-left: 350px;
+  margin: 60px 20px 0 350px;
   clear: both;
 }
 .posts li { margin-bottom: 10px; }
