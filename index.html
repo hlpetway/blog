@@ -2,15 +2,25 @@
 layout: default
 ---
 <div id="home-h1">
-<h2>Recent News</h2>
+<h2>Blog Posts</h2>
 </div>
 <div class="home">
 
+  <ul class="posts">
+    <h2>Recent Posts</h2>
+    {% for post in site.posts %}
+      <li>
+        <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+
   <!-- This loops through the paginated posts -->
   {% for post in paginator.posts %}
-    <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+    <h1><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h1>
     <p class="author">
-      <span class="date">{{ post.date }}</span>
+      <span class="date">{{ post.date | date: "%b %-d, %Y" }}</span>
     </p>
     <div class="content">
       {{ post.content }}
@@ -45,4 +55,5 @@ layout: default
   </div>
   {% endif %}
 </div>
+
 

@@ -34,7 +34,7 @@ a:visited { color: #205caa; }
 .wrap:after { content:""; display:table; }
 .wrap:after { clear: both; }
 .wrap {
-  max-width: 750px;
+  max-width: 900px;
   padding: 0 30px;
   margin: 0 50px;
   zoom: 1;
@@ -172,19 +172,25 @@ a:visited { color: #205caa; }
   padding: 10px 10px 10px 0;
 }
 
-.posts { list-style-type: none; }
+.posts {
+  float: right;
+  margin-left: 400px;
+  list-style-type: none;
+  clear: both;
+}
 
-.posts li { margin-bottom: 30px; }
+
+.posts li { margin-bottom: 10px; }
 
 .posts .post-link {
-  font-size: 24px;
+  font-size: 18px;
   letter-spacing: -1px;
   line-height: 1;
 }
 
 .posts .post-date {
   display: block;
-  font-size: 15px;
+  font-size: 12px;
   color: #818181;
 }
 
