@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About
+title: About Hailey
 permalink: /about/
 ---
 <img id="about-img" src="http://scontent-a.cdninstagram.com/hphotos-prn/t51.2885-15/928264_277181569120379_956600397_n.jpg" width="200" height="200" alt="My Head Shot">
