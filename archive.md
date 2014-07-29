@@ -3,7 +3,7 @@ layout: page
 title: Archive
 ---
 ## Blog Posts
-<ul class="posts">
+<ul class="archive-posts">
   {% for post in site.posts %}
     <li>
       <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>

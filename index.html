@@ -1,21 +1,18 @@
 ---
 layout: default
 ---
-<div id="home-h1">
-<h2>Blog Posts</h2>
+<div id="recent-posts">
+<ul class="posts">
+  <h2>Recent Posts</h2>
+  {% for post in site.posts %}
+    <li>
+      <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
+      <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
 </div>
 <div class="home">
-
-  <ul class="posts">
-    <h2>Recent Posts</h2>
-    {% for post in site.posts %}
-      <li>
-        <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-      </li>
-    {% endfor %}
-  </ul>
-
   <!-- This loops through the paginated posts -->
   {% for post in paginator.posts %}
     <h1><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h1>
